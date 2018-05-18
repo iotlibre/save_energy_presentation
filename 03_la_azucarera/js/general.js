@@ -9,22 +9,17 @@ $(document).ready(function(){
 	var secuencia = 0;
 	var diapo = [
 								"img/logopos.jpeg",
-								"img/la_energia.png",
 								"https://emoncms.org/dashboard/view?id=45620",
 								"img/colaborativo.png",
 								"img/invierte.png",
 								"img/equipo.png",
-								"img/profesionales.png",
 								"img/sensibiliza.png",
 								"img/logoneg.jpeg",
 								"https://emoncms.org/dashboard/view?id=44821",
-								"img/acondicionador.jpeg",
 								"img/escaleras.jpeg",
 								"img/termostato.jpeg",
-								"img/luz.jpeg",
-								"img/imprimes.jpeg",
-								"img/puertas.jpeg",
-								"img/standby.jpeg"
+								"img/standby.jpeg",
+								"https://emoncms.org/dashboard/view?id=44821"
 							];
 
 	var ajuste=function(){
@@ -110,7 +105,7 @@ $(document).ready(function(){
 
 
 	// Autorecarga.
-	var autorecarga_intervalo=0*60+10; // 5 minutos.
+	var autorecarga_intervalo=0*60+14; // 5 minutos.
 
 
 	window.setInterval(function(){
