@@ -9,15 +9,16 @@ $(document).ready(function(){
 	var secuencia = 0;
 	var diapo = [
 								"img/logopos.jpeg",
-								"https://emoncms.org/dashboard/view?id=45620",
+								"https://emoncms.org/dashboard/view?id=44821",
 								"img/colaborativo.png",
 								"img/invierte.png",
 								"img/equipo.png",
 								"img/sensibiliza.png",
-								"img/logoneg.jpeg",
+								"https://emoncms.org/dashboard/view?id=45620",
+								"img/escaleras.jpeg",							
 								"https://emoncms.org/dashboard/view?id=44821",
-								"img/escaleras.jpeg",
 								"img/termostato.jpeg",
+								"https://emoncms.org/dashboard/view?id=45620",									
 								"img/standby.jpeg",
 								"https://emoncms.org/dashboard/view?id=44821"
 							];
@@ -105,7 +106,7 @@ $(document).ready(function(){
 
 
 	// Autorecarga.
-	var autorecarga_intervalo=0*60+14; // 5 minutos.
+	var autorecarga_intervalo=0*60+20; // 5 min + 20 Sg.
 
 
 	window.setInterval(function(){
